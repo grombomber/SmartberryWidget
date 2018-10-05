@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetView.mc" id="3" lineNum="5" pc="268435456" symbol="initialize"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetView.mc" id="3" lineNum="6" pc="268435460" symbol="initialize"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetView.mc" id="4" lineNum="10" pc="268435479" symbol="onLayout"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetView.mc" id="4" lineNum="11" pc="268435483" symbol="onLayout"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetView.mc" id="5" lineNum="17" pc="268435521" symbol="onShow"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetView.mc" id="6" lineNum="21" pc="268435526" symbol="onUpdate"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetView.mc" id="6" lineNum="23" pc="268435530" symbol="onUpdate"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetView.mc" id="7" lineNum="30" pc="268435551" symbol="onHide"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="9" lineNum="21" pc="268435556" symbol="initialize"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="9" lineNum="23" pc="268435560" symbol="initialize"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="9" lineNum="25" pc="268435583" symbol="initialize"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="9" lineNum="27" pc="268435601" symbol="initialize"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="9" lineNum="28" pc="268435629" symbol="initialize"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="9" lineNum="29" pc="268435661" symbol="initialize"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="9" lineNum="30" pc="268435689" symbol="initialize"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="9" lineNum="31" pc="268435721" symbol="initialize"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="9" lineNum="32" pc="268435765" symbol="initialize"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="10" lineNum="42" pc="268435798" symbol="onMenu"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="10" lineNum="45" pc="268435802" symbol="onMenu"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="10" lineNum="47" pc="268435849" symbol="onMenu"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="10" lineNum="48" pc="268435879" symbol="onMenu"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="10" lineNum="53" pc="268435945" symbol="onMenu"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="10" lineNum="55" pc="268435997" symbol="onMenu"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="11" lineNum="58" pc="268436001" symbol="onBack"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="11" lineNum="59" pc="268436005" symbol="onBack"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="11" lineNum="63" pc="268436028" symbol="onBack"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="12" lineNum="66" pc="268436032" symbol="split"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="12" lineNum="67" pc="268436036" symbol="split"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="12" lineNum="69" pc="268436044" symbol="split"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="12" lineNum="71" pc="268436059" symbol="split"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="12" lineNum="72" pc="268436066" symbol="split"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="12" lineNum="74" pc="268436096" symbol="split"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="12" lineNum="76" pc="268436134" symbol="split"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="12" lineNum="79" pc="268436152" symbol="split"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetDelegate.mc" id="12" lineNum="81" pc="268436166" symbol="split"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\MenuSmartberryDelegate.mc" id="14" lineNum="15" pc="268436170" symbol="initialize"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\MenuSmartberryDelegate.mc" id="14" lineNum="16" pc="268436174" symbol="initialize"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\MenuSmartberryDelegate.mc" id="15" lineNum="19" pc="268436193" symbol="onSelect"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\MenuSmartberryDelegate.mc" id="15" lineNum="20" pc="268436197" symbol="onSelect"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\MenuSmartberryDelegate.mc" id="15" lineNum="21" pc="268436226" symbol="onSelect"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\MenuSmartberryDelegate.mc" id="15" lineNum="23" pc="268436239" symbol="onSelect"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\MenuSmartberryDelegate.mc" id="15" lineNum="25" pc="268436268" symbol="onSelect"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\MenuSmartberryDelegate.mc" id="15" lineNum="26" pc="268436332" symbol="onSelect"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\MenuSmartberryDelegate.mc" id="15" lineNum="27" pc="268436358" symbol="onSelect"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\MenuSmartberryDelegate.mc" id="15" lineNum="28" pc="268436372" symbol="onSelect"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\MenuSmartberryDelegate.mc" id="16" lineNum="33" pc="268436404" symbol="onBack"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\MenuSmartberryDelegate.mc" id="16" lineNum="34" pc="268436408" symbol="onBack"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\MenuSmartberryDelegate.mc" id="16" lineNum="35" pc="268436431" symbol="onBack"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\MenuSmartberryDelegate.mc" id="17" lineNum="38" pc="268436460" symbol="makeRequest"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\MenuSmartberryDelegate.mc" id="17" lineNum="39" pc="268436464" symbol="makeRequest"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\MenuSmartberryDelegate.mc" id="17" lineNum="43" pc="268436514" symbol="makeRequest"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\MenuSmartberryDelegate.mc" id="17" lineNum="49" pc="268436572" symbol="makeRequest"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\MenuSmartberryDelegate.mc" id="18" lineNum="58" pc="268436615" symbol="onReceive"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\MenuSmartberryDelegate.mc" id="18" lineNum="59" pc="268436619" symbol="onReceive"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetApp.mc" id="20" lineNum="5" pc="268436634" symbol="initialize"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetApp.mc" id="20" lineNum="6" pc="268436638" symbol="initialize"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetApp.mc" id="20" lineNum="7" pc="268436656" symbol="initialize"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetApp.mc" id="21" lineNum="11" pc="268436680" symbol="onStart"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetApp.mc" id="22" lineNum="15" pc="268436685" symbol="onStop"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetApp.mc" id="23" lineNum="19" pc="268436690" symbol="getInitialView"/>
+<entry filename="D:\\dev\\garmin\\workspace\\SmartberryWidget\\source\\SmartberryWidgetApp.mc" id="23" lineNum="20" pc="268436694" symbol="getInitialView"/>
+<entry filename="D:\\dev\\eclipse\\Rez" id="29" lineNum="19" pc="268436762" symbol="initialize"/>
+<entry filename="D:\\dev\\eclipse\\Rez" id="29" lineNum="20" pc="268436766" symbol="initialize"/>
+<entry filename="D:\\dev\\eclipse\\Rez" id="29" lineNum="21" pc="268436784" symbol="initialize"/>
+<entry filename="D:\\dev\\eclipse\\Rez" id="29" lineNum="22" pc="268436806" symbol="initialize"/>
+<entry filename="D:\\dev\\eclipse\\Rez" id="29" lineNum="23" pc="268436828" symbol="initialize"/>
+<entry filename="D:\\dev\\eclipse\\Rez" id="29" lineNum="24" pc="268436850" symbol="initialize"/>
+<entry filename="D:\\dev\\eclipse\\Rez" id="29" lineNum="25" pc="268436872" symbol="initialize"/>
+<entry filename="D:\\dev\\eclipse\\Rez" id="29" lineNum="26" pc="268436894" symbol="initialize"/>
+<entry filename="D:\\dev\\eclipse\\Rez" id="29" lineNum="27" pc="268436916" symbol="initialize"/>
+<entry filename="D:\\dev\\eclipse\\Rez" id="32" lineNum="45" pc="268436939" symbol="MainLayout"/>
+<entry filename="D:\\dev\\eclipse\\Rez" id="32" lineNum="49" pc="268436951" symbol="MainLayout"/>
+<entry filename="D:\\dev\\eclipse\\Rez" id="32" lineNum="50" pc="268437126" symbol="MainLayout"/>
+<entry filename="D:\\dev\\eclipse\\Rez" id="32" lineNum="51" pc="268437282" symbol="MainLayout"/>
+<entry filename="D:\\dev\\eclipse\\Rez" id="32" lineNum="52" pc="268437315" symbol="MainLayout"/>
+<entry filename="D:\\dev\\eclipse\\Rez" id="32" lineNum="55" pc="268437367" symbol="MainLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry field="true" id="24" symbol="MainMenuTitle"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="8388637" module="true" symbol="Communications"/>
+<entry id="31" symbol="alon"/>
+<entry id="8390425" module="true" symbol="Properties"/>
+<entry field="true" id="8389642" symbol="title"/>
+<entry id="15" object="true" symbol="SmartberryWidgetDelegate"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="22" object="true" symbol="MainMenu"/>
+<entry id="8389619" method="true" symbol="onSelect"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="8389897" symbol="stateDefault"/>
+<entry field="true" id="10" symbol="auth"/>
+<entry field="true" id="26" symbol="Prompt"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="23" method="true" symbol="MainLayout"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="16" object="true" symbol="MenuSmartberryDelegate"/>
+<entry field="true" id="8389103" symbol="behavior"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="32" symbol="aloff"/>
+<entry field="true" id="27" symbol="AppName"/>
+<entry id="28" method="true" symbol="makeRequest"/>
+<entry id="8389594" symbol="headers"/>
+<entry field="true" id="25" symbol="HomeTitle"/>
+<entry field="true" id="13" symbol="commandSwitch"/>
+<entry field="true" id="12" symbol="commandPath"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry id="34" symbol="volp"/>
+<entry id="35" symbol="volm"/>
+<entry id="30" method="true" symbol="split"/>
+<entry field="true" id="21" symbol="LauncherIcon"/>
+<entry id="8389081" method="true" symbol="onBack"/>
+<entry id="8388786" method="true" symbol="method"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="9" object="true" symbol="SmartberryWidgetView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="17" object="true" symbol="SmartberryWidgetApp"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8389348" symbol="font"/>
+<entry id="8389347" symbol="color"/>
+<entry field="true" id="8389067" symbol="height"/>
+<entry field="true" id="11" symbol="serverUrl"/>
+<entry id="19" module="true" symbol="Layouts"/>
+<entry field="true" id="20" symbol="Domoticz"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="33" symbol="mute"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="8389844" symbol="responseType"/>
+<entry id="8389346" symbol="text"/>
+<entry field="true" id="8389066" symbol="width"/>
+<entry id="37" symbol="magic"/>
+<entry id="18" module="true" symbol="Menus"/>
+<entry field="true" id="14" symbol="devices"/>
+<entry id="29" method="true" symbol="onReceive"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry id="36" symbol="light"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435521" name="dc" stackId="1" startPc="268435479"/>
+<entry endPc="268435551" name="dc" stackId="1" startPc="268435526"/>
+<entry endPc="268435945" name="i" stackId="2" startPc="268435879"/>
+<entry endPc="268436000" name="menu" stackId="1" startPc="268435802"/>
+<entry endPc="268436169" name="found" stackId="4" startPc="268436036"/>
+<entry endPc="268436169" name="tokens" stackId="3" startPc="268436036"/>
+<entry endPc="268436170" name="sep" stackId="2" startPc="268436032"/>
+<entry endPc="268436170" name="s" stackId="1" startPc="268436032"/>
+<entry endPc="268436400" name="url" stackId="3" startPc="268436268"/>
+<entry endPc="268436403" name="i" stackId="2" startPc="268436197"/>
+<entry endPc="268436404" name="item" stackId="1" startPc="268436193"/>
+<entry endPc="268436614" name="options" stackId="3" startPc="268436464"/>
+<entry endPc="268436614" name="headers" stackId="2" startPc="268436464"/>
+<entry endPc="268436615" name="url" stackId="1" startPc="268436460"/>
+<entry endPc="268436634" name="responseCode" stackId="1" startPc="268436615"/>
+<entry endPc="268436634" name="data" stackId="2" startPc="268436615"/>
+<entry endPc="268436685" name="state" stackId="1" startPc="268436680"/>
+<entry endPc="268436690" name="state" stackId="1" startPc="268436685"/>
+<entry endPc="268437394" name="rez_cmp_local_bitmap_2056016510" stackId="3" startPc="268436951"/>
+<entry endPc="268437394" name="rez_cmp_local_custom_selectable_19209149282144580744" stackId="2" startPc="268436951"/>
+<entry endPc="268437394" name="rez_cmp_local_bitmap_2056016510_fontHeight" stackId="4" startPc="268436951"/>
+<entry endPc="268437395" name="dc" stackId="1" startPc="268436939"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="SmartberryWidgetView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="SmartberryWidgetView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="SmartberryWidgetView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="SmartberryWidgetView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="SmartberryWidgetView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="SmartberryWidgetDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onMenu" parent="SmartberryWidgetDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onBack" parent="SmartberryWidgetDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="split" parent="SmartberryWidgetDelegate">
+<param id="s"/>
+<param id="sep"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="MenuSmartberryDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSelect" parent="MenuSmartberryDelegate">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onBack" parent="MenuSmartberryDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="makeRequest" parent="MenuSmartberryDelegate">
+<param id="url"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onReceive" parent="MenuSmartberryDelegate">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="SmartberryWidgetApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="SmartberryWidgetApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="SmartberryWidgetApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="SmartberryWidgetApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="MainMenu">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="MainLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="238" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="317" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="364" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="403" parentId="Menus" symbolId="MainMenu" type="class"/>
+<dataEntry offset="450" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="481" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="512" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="551" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="638" parentId="globals" symbolId="MenuSmartberryDelegate" type="class"/>
+<dataEntry offset="717" parentId="globals" symbolId="SmartberryWidgetView" type="class"/>
+<dataEntry offset="796" parentId="globals" symbolId="SmartberryWidgetApp" type="class"/>
+<dataEntry offset="867" parentId="globals" symbolId="SmartberryWidgetDelegate" type="class"/>
+</dataEntryOffsetMappings>
+</debugInfo>

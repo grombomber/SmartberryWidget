@@ -1,0 +1,9 @@
+<menu id="MainMenu">
+    <menu-item label="Alarme ON" id="alon" />
+    <menu-item label="Alarme OFF" id="aloff" />
+    <menu-item label="Mute" id="mute" />
+    <menu-item label="Vol +" id="volp" />
+    <menu-item label="Vol -" id="volm" />
+    <menu-item label="Lumière" id="light" />
+    <menu-item label="Magic" id="magic" />
+</menu>	

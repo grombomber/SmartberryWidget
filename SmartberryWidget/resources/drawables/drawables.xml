@@ -1,0 +1,8 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+<!--     <bitmap id="BlueRounded" filename="blue_rounded.png" /> -->
+<!--     <bitmap id="PortailOn" filename="portail_on.png" /> -->
+<!--     <bitmap id="PortailOff" filename="portail_off.png" /> -->
+<!--     <bitmap id="MenuDots" filename="menu_dots.png" /> -->
+    <bitmap id="Domoticz" filename="home_orange.png" />
+</drawables>

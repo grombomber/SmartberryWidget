@@ -1,0 +1,8 @@
+<layout id="MainLayout">
+    <button x="0" y="0" width="200" height="200">
+        <state id="stateDefault" bitmap="@Drawables.Domoticz" />
+        <param name="behavior">onMenu</param>
+    </button>
+    <label x="center" y="190" text="Domoticz" font="Graphics.FONT_MEDIUM" color="Graphics.COLOR_ORANGE" justification="Graphics.TEXT_JUSTIFY_CENTER" /> -->
+</layout>
+   

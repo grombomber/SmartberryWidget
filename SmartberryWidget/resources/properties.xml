@@ -1,0 +1,68 @@
+<resources>
+	<properties>
+        <property id="serverUrl" type="string">https://xxx.ddns.net</property>
+    	<property id="devices" type="string">Portail ON;693;On;Portail OFF;691;Off;Lumière ON;806;On</property>
+    	<property id="auth" type="string">cGk6MjR2d2JjZG9t</property>
+    </properties>
+    <strings>
+	    <string id="serverUrl">Server Url</string>
+	    <string id="devices">Devices list (Name1;domoticz id;domoticz action;Name2;...)</string>
+	    <string id="auth">Authorization header (Basic auth)</string>
+	</strings>
+	<settings>
+		<setting propertyKey="@Properties.serverUrl" title="@Strings.serverUrl">
+	        <settingConfig type="alphaNumeric"></settingConfig>
+	    </setting>
+	    <setting propertyKey="@Properties.devices" title="@Strings.devices">
+	        <settingConfig type="alphaNumeric"></settingConfig>
+	    </setting>
+	    <setting propertyKey="@Properties.auth" title="@Strings.auth">
+	        <settingConfig type="alphaNumeric"></settingConfig>
+	    </setting>
+	</settings>
+<!-- 
+    <properties>
+        <property id="number_prop" type="number">2</property>
+        <property id="long_prop" type="long">3</property>
+        <property id="float_prop" type="float">2.718282</property>
+        <property id="double_prop" type="double">3.0</property>
+        <property id="string_prop" type="string">Euler</property>
+        <property id="boolean_prop" type="boolean">false</property>
+    </properties>
+
+    <strings>
+       <string id="number_title">Number</string>
+       <string id="long_title">Long</string>
+       <string id="float_title">Float</string>
+       <string id="double_title">Double</string>
+       <string id="string_title">String</string>
+       <string id="boolean_title">Boolean</string>
+    </strings>
+
+    <settings>
+        <setting propertyKey="@Properties.number_prop" title="@Strings.number_title">
+            <settingConfig type="numeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.long_prop" title="@Strings.long_title">
+            <settingConfig type="numeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.float_prop" title="@Strings.float_title">
+            <settingConfig type="numeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.double_prop" title="@Strings.double_title">
+            <settingConfig type="numeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.string_prop" title="@Strings.string_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+
+        <setting propertyKey="@Properties.boolean_prop" title="@Strings.boolean_title">
+            <settingConfig type="boolean" />
+        </setting>
+    </settings>
+    -->
+</resources>
