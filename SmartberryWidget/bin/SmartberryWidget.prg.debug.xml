@@ -165,9 +165,15 @@
 <entry endPc="268436634" name="s" stackId="1" startPc="268436496"/>
 <entry endPc="268436685" name="state" stackId="1" startPc="268436680"/>
 <entry endPc="268436690" name="state" stackId="1" startPc="268436685"/>
+<<<<<<< br-test_confirmation
 <entry endPc="268437394" name="rez_cmp_local_bitmap_9687190171_fontHeight" stackId="4" startPc="268436951"/>
 <entry endPc="268437394" name="rez_cmp_local_bitmap_9687190171" stackId="3" startPc="268436951"/>
 <entry endPc="268437394" name="rez_cmp_local_custom_selectable_46302378911926451311" stackId="2" startPc="268436951"/>
+=======
+<entry endPc="268437394" name="rez_cmp_local_bitmap_1237835664" stackId="3" startPc="268436951"/>
+<entry endPc="268437394" name="rez_cmp_local_custom_selectable_16621194471379789321" stackId="2" startPc="268436951"/>
+<entry endPc="268437394" name="rez_cmp_local_bitmap_1237835664_fontHeight" stackId="4" startPc="268436951"/>
+>>>>>>> local
 <entry endPc="268437395" name="dc" stackId="1" startPc="268436939"/>
 </localVars>
 <annotations/>
