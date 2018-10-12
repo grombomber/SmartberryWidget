@@ -1,8 +1,8 @@
 <resources>
 	<properties>
-        <property id="serverUrl" type="string">https://xxx.ddns.net</property>
-    	<property id="devices" type="string">Portail ON;693;On;Portail OFF;691;Off;Lumière ON;806;On</property>
-    	<property id="auth" type="string">cGk6MjR2d2JjZG9t</property>
+        <property id="serverUrl" type="string">https://90.4.12.148:4875</property>
+    	<property id="devices" type="string">Relais ON;52;On;Relais OFF;52;Off</property>
+    	<property id="auth" type="string">ZmdlbmVzdGU6OFM1UzI5Q00h</property>
     </properties>
     <strings>
 	    <string id="serverUrl">Server Url</string>
