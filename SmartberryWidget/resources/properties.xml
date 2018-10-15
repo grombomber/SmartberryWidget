@@ -1,6 +1,6 @@
 <resources>
 	<properties>
-        <property id="serverUrl" type="string">https://90.4.12.148:4875</property>
+        <property id="serverUrl" type="string">http://192.168.1.22:4875</property>
     	<property id="devices" type="string">Relais On;52;On;Relais Off;52;Off</property>
     	<property id="auth" type="string">ZmdlbmVzdGU6OFM1UzI5Q00h</property>
     </properties>

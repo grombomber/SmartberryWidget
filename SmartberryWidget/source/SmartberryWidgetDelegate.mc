@@ -11,6 +11,7 @@ using Toybox.Application.Properties as Properties;
 var auth;
 var serverUrl;
 var commandPath = "/json.htm?type=command&param=switchlight&idx=";
+var commandPath2 = "/json.htm?type=devices&filter=temp&used=true&order=name";
 var commandSwitch = "&switchcmd=";
 var devices;
 	
@@ -47,6 +48,9 @@ class SmartberryWidgetDelegate extends WatchUi.BehaviorDelegate {
         for (var i=0; i < devices.size() ; i+=3) {
         	menu.addItem(new WatchUi.MenuItem(devices[i], null, i, null));
         }
+        
+        //We add an entry to the menu to get Temp sensors values
+        menu.addItem(new WatchUi.MenuItem("Temp.", null, devices.size() , null));
         
         // Test Toggle
         //menu.addItem(new WatchUi.ToggleMenuItem("Toggle", {:enabled=>"ON: on", :disabled=>"OFF: off"}, "left", false, {:alignment=>WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
