@@ -74,7 +74,7 @@ class MenuSmartberryDelegate extends WatchUi.Menu2InputDelegate {
     
     function makeRequest(url) {
 		var headers = {
-         "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON //,
+         "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON// ,
          //"Authorization" => "Basic " + auth
         };
         var options = {
@@ -93,7 +93,7 @@ class MenuSmartberryDelegate extends WatchUi.Menu2InputDelegate {
 
     // Receive the data from the web request
     function onReceive(responseCode, data) {
-    	System.println("responseCode = " + responseCode + " Data = " + data);
+    	//System.println("responseCode = " + responseCode + " Data = " + data.get("result"));
     	//System.println(results);
     	
         if (responseCode == 200) {
