@@ -1,7 +1,8 @@
 using Toybox.Application;
 
 class SmartberryWidgetApp extends Application.AppBase {
-
+	hidden var mView;
+	
     function initialize() {
         AppBase.initialize();
         System.println("Starting widget ...");
@@ -17,7 +18,8 @@ class SmartberryWidgetApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() {
-    	return [ new SmartberryWidgetView(), new SmartberryWidgetDelegate() ];
+    	mView = new SmartberryWidgetView();	
+    	return [ mView, new SmartberryWidgetDelegate() ];
     }
 
 }

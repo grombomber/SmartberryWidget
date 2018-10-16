@@ -74,8 +74,8 @@ class MenuSmartberryDelegate extends WatchUi.Menu2InputDelegate {
     
     function makeRequest(url) {
 		var headers = {
-         "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON// ,
-         //"Authorization" => "Basic " + auth
+         "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON ,
+         "Authorization" => "Basic " + auth
         };
         var options = {
           :method => Communications.HTTP_REQUEST_METHOD_GET,
@@ -85,8 +85,8 @@ class MenuSmartberryDelegate extends WatchUi.Menu2InputDelegate {
         
         Communications.makeWebRequest(
             url,
-            {},
-            options,
+			{},
+			options,
             method(:onReceive)
         );
     }

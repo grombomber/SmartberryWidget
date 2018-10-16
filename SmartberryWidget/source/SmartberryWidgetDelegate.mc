@@ -11,7 +11,7 @@ using Toybox.Application.Properties as Properties;
 var auth;
 var serverUrl;
 var commandPath = "/json.htm?type=command&param=switchlight&idx=";
-var commandPath2 = "/json.htm?type=devices&filter=temp&used=true&order=name";
+var commandPath2 = "/json.htm?type=devices&filter=temp&used=true&order=Name";
 var commandSwitch = "&switchcmd=";
 var devices;
 	
