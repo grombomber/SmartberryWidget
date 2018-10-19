@@ -11,9 +11,12 @@ using Toybox.Application.Properties as Properties;
 
 // This is the menu input delegate for the main menu of the application
 class MenuSmartberryDelegate extends WatchUi.Menu2InputDelegate {
+	var notify;
 	
     function initialize() {
         Menu2InputDelegate.initialize();
+      
+
     }
 
     function onSelect(item) {
@@ -27,14 +30,10 @@ class MenuSmartberryDelegate extends WatchUi.Menu2InputDelegate {
 	    	makeRequest(url);
 	    	WatchUi.popView(WatchUi.SLIDE_RIGHT);
 	    } else {
-	    // We want to get temperatures
-	    	if (i==devices.size()) {
-	    		// run command
+	    	// We want to get temperatures
 	    		var url = serverUrl + commandPath2;
 	    		System.println("Target url " + url);
 	    		makeRequest(url);
-	    		
-	    	}
 	    }
 	    
     	
@@ -45,31 +44,6 @@ class MenuSmartberryDelegate extends WatchUi.Menu2InputDelegate {
         WatchUi.popView(WatchUi.SLIDE_RIGHT);
     }
     
-   // function makeRequest2(url) {
-    
-   //     notify.invoke("Récupération infos");
-	//	
-		
-		//	Comm.makeWebRequest(
-        //    url, //url
-        //    {
-                //"username" => "", //base64 decoded
-                //"password" => "", //base64 decoded
-        //        "type"	   => "devices",
-        //        "filter"   => "temp",
-        //        "used"     => "true",
-        //        "order"    => "Name"
-        //    },
-        //    {                                             // set the options
-        //   :method => Comm.HTTP_REQUEST_METHOD_GET,      // set HTTP method
-           
-                                                                   // set response type
-        //   :responseType => Comm.HTTP_RESPONSE_CONTENT_TYPE_JSON
-       //},
-         //  method(:onReceive)
-        //);
-        //System.println("Je sors du Make Request");
-    //}
     
     
     function makeRequest(url) {
