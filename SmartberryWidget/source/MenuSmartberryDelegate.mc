@@ -11,7 +11,7 @@ using Toybox.Application.Properties as Properties;
 
 // This is the menu input delegate for the main menu of the application
 class MenuSmartberryDelegate extends WatchUi.Menu2InputDelegate {
-	var notify;
+	hidden var tView;
 	
     function initialize() {
         Menu2InputDelegate.initialize();
@@ -30,10 +30,10 @@ class MenuSmartberryDelegate extends WatchUi.Menu2InputDelegate {
 	    	makeRequest(url);
 	    	WatchUi.popView(WatchUi.SLIDE_RIGHT);
 	    } else {
-	    	// We want to get temperatures
-	    		var url = serverUrl + commandPath2;
-	    		System.println("Target url " + url);
-	    		makeRequest(url);
+  	       // On va afficher les temp
+  	       tView = new TempSmartberryWidgetView();
+            WatchUi.pushView(tView, new TempSmartberryDelegate(), WatchUi.SLIDE_LEFT );
+	    	
 	    }
 	    
     	
@@ -67,23 +67,23 @@ class MenuSmartberryDelegate extends WatchUi.Menu2InputDelegate {
 
     // Receive the data from the web request
     function onReceive(responseCode, data) {
-    	//System.println("responseCode = " + responseCode + " Data = " + data.get("result"));
+    	System.println("responseCode = " + responseCode + " Data = " + data.get("result"));
     	//System.println(results);
     	
-        if (responseCode == 200) {
-        	var receivedData = data.get("result");
-        	var nbValeurs = receivedData.size();
-        	var chaineComplete = "\n";
+       // if (responseCode == 200) {
+       // 	var receivedData = data.get("result");
+       // 	var nbValeurs = receivedData.size();
+       // 	var chaineComplete = "\n";
         	//System.println(receivedData);
         	//System.println(nbValeurs);
             // Bureau, Cave, Garage, Salon, Piscine (Sonde Temp. Piscine)
-            while (nbValeurs > 0) { 
-            	chaineComplete = chaineComplete + receivedData[nbValeurs-1]["Name"] + ": " + receivedData[nbValeurs-1]["Temp"].format("%.1f") +" C\n";
-		        nbValeurs--;
-            }
-            System.println(chaineComplete);
-        } else {
-            System.println("Erreur chargement\nError: " + responseCode.toString());
-        }
+       //     while (nbValeurs > 0) { 
+       //     	chaineComplete = chaineComplete + receivedData[nbValeurs-1]["Name"] + ": " + receivedData[nbValeurs-1]["Temp"].format("%.1f") +" C\n";
+		//        nbValeurs--;
+        //    }
+        //    System.println(chaineComplete);
+        //} else {
+        //    System.println("Erreur chargement\nError: " + responseCode.toString());
+        //}
     }
 }

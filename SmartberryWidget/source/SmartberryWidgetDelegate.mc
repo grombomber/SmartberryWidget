@@ -18,7 +18,7 @@ var devices;
 // This is delegate for the main page of our application that pushes the menu
 // when the onMenu() behavior is received.
 class SmartberryWidgetDelegate extends WatchUi.BehaviorDelegate {
-	var notify;	
+	
     function initialize() {
     
         System.println("Starting delegate ...");
