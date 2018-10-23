@@ -1,11 +1,11 @@
 using Toybox.Application;
+using Toybox.System;
 
 class SmartberryWidgetApp extends Application.AppBase {
 	hidden var mView;
 	
     function initialize() {
         AppBase.initialize();
-        System.println("Starting widget ...");
     }
 
     // onStart() is called on application start up

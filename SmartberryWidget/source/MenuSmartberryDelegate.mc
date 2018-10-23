@@ -26,16 +26,12 @@ class MenuSmartberryDelegate extends WatchUi.Menu2InputDelegate {
     	if (i < devices.size() - 1) {
 	    	// run command
 	    	var url = serverUrl + commandPath + devices[i+1] + commandSwitch + devices[i+2];
-	    	System.println("Target url " + url);
 	    	makeRequest(url);
 	    	WatchUi.popView(WatchUi.SLIDE_RIGHT);
 	    } else {
-	    	System.println("On Select Creation du TempSmartberryWidgetView");
   	       // On va afficher les temp
-  	       tView = new TempSmartberryWidgetView();
-	    	System.println("On Select Apres Creation du TempSmartberryWidgetView");
+  	        tView = new TempSmartberryWidgetView();
             WatchUi.pushView(tView, new TempSmartberryDelegate(), WatchUi.SLIDE_LEFT );
-           System.println("On select apres le pushView TempSmartberryDelegate");
   	
 	    }
 	    
@@ -43,7 +39,6 @@ class MenuSmartberryDelegate extends WatchUi.Menu2InputDelegate {
     }
 
     function onBack() {
-    	System.println("onback");
         WatchUi.popView(WatchUi.SLIDE_RIGHT);
     }
     
@@ -70,10 +65,8 @@ class MenuSmartberryDelegate extends WatchUi.Menu2InputDelegate {
 
     // Receive the data from the web request
     function onReceive(responseCode, data) {
-    	System.println("responseCode = " + responseCode + " Data = " + data.get("result"));
-    	//System.println(results);
     	
-       // if (responseCode == 200) {
+       if (responseCode == 200) {
        // 	var receivedData = data.get("result");
        // 	var nbValeurs = receivedData.size();
        // 	var chaineComplete = "\n";
@@ -84,9 +77,9 @@ class MenuSmartberryDelegate extends WatchUi.Menu2InputDelegate {
        //     	chaineComplete = chaineComplete + receivedData[nbValeurs-1]["Name"] + ": " + receivedData[nbValeurs-1]["Temp"].format("%.1f") +" C\n";
 		//        nbValeurs--;
         //    }
-        //    System.println(chaineComplete);
-        //} else {
-        //    System.println("Erreur chargement\nError: " + responseCode.toString());
-        //}
+            System.println("OK");
+        } else {
+            System.println("KO\nError: " + responseCode.toString());
+        }
     }
 }

@@ -21,7 +21,6 @@ class SmartberryWidgetDelegate extends WatchUi.BehaviorDelegate {
 	
     function initialize() {
     
-        System.println("Starting delegate ...");
         
         BehaviorDelegate.initialize();
         
@@ -29,15 +28,7 @@ class SmartberryWidgetDelegate extends WatchUi.BehaviorDelegate {
         auth = Properties.getValue("auth");
         System.println("INFO : " + auth);
         serverUrl = Properties.getValue("serverUrl");
-        System.println("INFO : " + serverUrl);
 		devices = split(Properties.getValue("devices"), ";");
-        System.println("INFO : " + devices);
-
-/*        
-        for (var i=0; i < devices.size() ; i+=3) {
-        	System.println("INFO : " + devices[i] + serverUrl + commandPath + devices[i+1] + commandSwitch + devices[i+2] );
-        }
-        */
         
     }
 
@@ -61,7 +52,6 @@ class SmartberryWidgetDelegate extends WatchUi.BehaviorDelegate {
     }
     
     function onBack() {
-    	System.println("Delegate onBack");
     	// Plante si on pop la dernière vue ...
     	//WatchUi.popView(SLIDE_RIGHT);
     	//Application.AppBase.exit();
