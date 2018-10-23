@@ -30,10 +30,13 @@ class MenuSmartberryDelegate extends WatchUi.Menu2InputDelegate {
 	    	makeRequest(url);
 	    	WatchUi.popView(WatchUi.SLIDE_RIGHT);
 	    } else {
+	    	System.println("On Select Creation du TempSmartberryWidgetView");
   	       // On va afficher les temp
   	       tView = new TempSmartberryWidgetView();
+	    	System.println("On Select Apres Creation du TempSmartberryWidgetView");
             WatchUi.pushView(tView, new TempSmartberryDelegate(), WatchUi.SLIDE_LEFT );
-	    	
+           System.println("On select apres le pushView TempSmartberryDelegate");
+  	
 	    }
 	    
     	

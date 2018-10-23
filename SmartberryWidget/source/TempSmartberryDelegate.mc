@@ -46,6 +46,7 @@ class TempSmartberryDelegate extends Ui.BehaviorDelegate {
 
     // Set up the callback to the view
     function initialize(handler) {
+    	System.println("Dans le initialize du TempSmartberryDelegate");
         Ui.BehaviorDelegate.initialize();
         notify = handler;
 	    var url = serverUrl + commandPath2;

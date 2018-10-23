@@ -12,6 +12,7 @@ class TempSmartberryWidgetView extends Ui.View {
     hidden var mModel;
 
     function initialize() {
+    	System.println("Dans le initialize du TempSmartberryWidgetView");
         Ui.View.initialize();
     }
 
