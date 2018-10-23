@@ -31,7 +31,7 @@ class MenuSmartberryDelegate extends WatchUi.Menu2InputDelegate {
 	    } else {
   	       // On va afficher les temp
   	        tView = new TempSmartberryWidgetView();
-            WatchUi.pushView(tView, new TempSmartberryDelegate(), WatchUi.SLIDE_LEFT );
+            WatchUi.pushView(tView, new TempSmartberryDelegate(tView.method(:onReceive)), WatchUi.SLIDE_LEFT );
   	
 	    }
 	    

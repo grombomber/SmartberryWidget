@@ -18,6 +18,7 @@ class TempSmartberryDelegate extends Ui.BehaviorDelegate {
     }
 
     function makeRequest(url) {
+    	notify.invoke("Récupération infos");
     
         // We want to get temperatures
         var headers = {
@@ -38,8 +39,9 @@ class TempSmartberryDelegate extends Ui.BehaviorDelegate {
     }
 
     // Set up the callback to the view
-    function initialize() {
+    function initialize(handler) {
         BehaviorDelegate.initialize();
+        notify = handler;
 	    var url = serverUrl + commandPath2;
         makeRequest(url); //added to run just after initialization
     }
@@ -58,9 +60,9 @@ class TempSmartberryDelegate extends Ui.BehaviorDelegate {
 		        nbValeurs--;
             }
             System.println(chaineComplete);
-            //            //notify.invoke(chaineComplete);
+            notify.invoke(chaineComplete);
         } else {
-            //notify.invoke("Failed to load\nError: " + responseCode.toString());
+            notify.invoke("Failed to load\nError: " + responseCode.toString());
             System.println("Pas 200");
         }
     }
