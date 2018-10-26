@@ -18,21 +18,22 @@ class TempSmartberryDelegate extends Ui.BehaviorDelegate {
     }
 
     function makeRequest(url) {
-    	notify.invoke("Récupération infos");
+    	//notify.invoke("Recuperation infos");
     
         // We want to get temperatures
         var headers = {
-         "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON
+         "Content-Type" => Comm.REQUEST_CONTENT_TYPE_JSON ,
+         "Authorization" => "Basic " + auth
         };
         
 	      var options = {
-          :method => Communications.HTTP_REQUEST_METHOD_GET,
+          :method => Comm.HTTP_REQUEST_METHOD_GET,
           :headers => headers,
-          :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
+          :responseType => Comm.HTTP_RESPONSE_CONTENT_TYPE_JSON
         };
- 			Communications.makeWebRequest(
+ 			Comm.makeWebRequest(
             url, //url
-            null,
+            {},
            	options,
            	method(:onReceive)
         );
@@ -43,14 +44,16 @@ class TempSmartberryDelegate extends Ui.BehaviorDelegate {
         BehaviorDelegate.initialize();
         notify = handler;
 	    var url = serverUrl + commandPath2;
+	    //System.println(url);
         makeRequest(url); //added to run just after initialization
     }
 
     // Receive the data from the web request
     function onReceive(responseCode, data) {
-    	    	
+    
+    	    	    	
        if (responseCode == 200) {
-       		//System.println("200");
+
         	var receivedData = data.get("result");
         	var nbValeurs = receivedData.size();
         	var chaineComplete = "\n";
@@ -59,11 +62,11 @@ class TempSmartberryDelegate extends Ui.BehaviorDelegate {
             	chaineComplete = chaineComplete + receivedData[nbValeurs-1]["Name"] + ": " + receivedData[nbValeurs-1]["Temp"].format("%.1f") +" C\n";
 		        nbValeurs--;
             }
-            System.println(chaineComplete);
+            //System.println(chaineComplete);
             notify.invoke(chaineComplete);
         } else {
-            notify.invoke("Failed to load\nError: " + responseCode.toString());
-            System.println("Pas 200");
+            //notify.invoke("Failed to load\nError: " + responseCode.toString());
+            //System.println(responseCode.toString());
         }
     }
 }

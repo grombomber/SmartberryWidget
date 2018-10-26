@@ -11,7 +11,7 @@ using Toybox.Application.Properties as Properties;
 
 // This is the menu input delegate for the main menu of the application
 class MenuSmartberryDelegate extends WatchUi.Menu2InputDelegate {
-	hidden var tView;
+	var tView;
 	
     function initialize() {
         Menu2InputDelegate.initialize();
@@ -22,12 +22,21 @@ class MenuSmartberryDelegate extends WatchUi.Menu2InputDelegate {
     function onSelect(item) {
     	System.println(item.getId());
     	var i = item.getId();
-    	
+    	// Si switch alors on passe la commande correspondant à la position du toggle bouton, si temp alors on affiche les temp
     	if (i < devices.size() - 1) {
-	    	// run command
-	    	var url = serverUrl + commandPath + devices[i+1] + commandSwitch + devices[i+2];
-	    	makeRequest(url);
-	    	WatchUi.popView(WatchUi.SLIDE_RIGHT);
+			if (devices[i+2].equals("switch")) {
+	    		// run command
+	    		var commandValue="";
+	    		if (item.isEnabled()) {
+	    			commandValue="On";
+	    		} else {
+	    			commandValue="Off";
+	    		}
+	    		var url = serverUrl + commandPath + devices[i+1] + commandSwitch + commandValue;
+	    		makeRequest(url);
+	    		//WatchUi.popView(WatchUi.SLIDE_RIGHT);
+	    	} else {
+	    	}
 	    } else {
   	       // On va afficher les temp
   	        tView = new TempSmartberryWidgetView();
@@ -67,19 +76,9 @@ class MenuSmartberryDelegate extends WatchUi.Menu2InputDelegate {
     function onReceive(responseCode, data) {
     	
        if (responseCode == 200) {
-       // 	var receivedData = data.get("result");
-       // 	var nbValeurs = receivedData.size();
-       // 	var chaineComplete = "\n";
-        	//System.println(receivedData);
-        	//System.println(nbValeurs);
-            // Bureau, Cave, Garage, Salon, Piscine (Sonde Temp. Piscine)
-       //     while (nbValeurs > 0) { 
-       //     	chaineComplete = chaineComplete + receivedData[nbValeurs-1]["Name"] + ": " + receivedData[nbValeurs-1]["Temp"].format("%.1f") +" C\n";
-		//        nbValeurs--;
-        //    }
-            System.println("OK");
+            //System.println("OK");
         } else {
-            System.println("KO\nError: " + responseCode.toString());
+            //System.println("KO\nError: " + responseCode.toString());
         }
     }
 }

@@ -1,5 +1,6 @@
 using Toybox.WatchUi;
 
+
 class SmartberryWidgetView extends WatchUi.View {
 	
     function initialize() {

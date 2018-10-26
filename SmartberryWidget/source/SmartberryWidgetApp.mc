@@ -1,6 +1,7 @@
 using Toybox.Application;
 using Toybox.System;
 
+
 class SmartberryWidgetApp extends Application.AppBase {
 	hidden var mView;
 	

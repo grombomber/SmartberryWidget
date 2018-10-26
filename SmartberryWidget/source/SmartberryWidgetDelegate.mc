@@ -26,7 +26,6 @@ class SmartberryWidgetDelegate extends WatchUi.BehaviorDelegate {
         
         
         auth = Properties.getValue("auth");
-        System.println("INFO : " + auth);
         serverUrl = Properties.getValue("serverUrl");
 		devices = split(Properties.getValue("devices"), ";");
         
@@ -38,14 +37,22 @@ class SmartberryWidgetDelegate extends WatchUi.BehaviorDelegate {
 		var menu = new WatchUi.Menu2({:title=>"Domoticz"});
         
         for (var i=0; i < devices.size() ; i+=3) {
-        	menu.addItem(new WatchUi.MenuItem(devices[i], null, i, null));
+        		// Test si type de device switch ou non
+        		// A ajouter, la récupération de l'état initial pour mettre à la bonne valeur le toggle bouton
+        		
+        		if (devices[i+2].equals("switch"))
+        		{
+        			// Toggle
+        			menu.addItem(new WatchUi.ToggleMenuItem(devices[i], {:enabled=>"ON: on", :disabled=>"OFF: off"}, i, false, {:alignment=>WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_RIGHT}));
+        		} else {
+        		// Simple menu entry
+        			menu.addItem(new WatchUi.MenuItem(devices[i], null, i, null));
+        		}
         }
         
         //We add an entry to the menu to get Temp sensors values
         menu.addItem(new WatchUi.MenuItem("Temp.", null, devices.size() , null));
         
-        // Test Toggle
-        //menu.addItem(new WatchUi.ToggleMenuItem("Toggle", {:enabled=>"ON: on", :disabled=>"OFF: off"}, "left", false, {:alignment=>WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
         WatchUi.pushView(menu, new MenuSmartberryDelegate(), WatchUi.SLIDE_LEFT );
         
         return true;

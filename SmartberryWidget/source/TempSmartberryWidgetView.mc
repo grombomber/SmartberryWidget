@@ -8,7 +8,7 @@ using Toybox.WatchUi as Ui;
 using Toybox.Graphics;
 
 class TempSmartberryWidgetView extends Ui.View {
-    hidden var mMessage = "Press menu button";
+    hidden var mMessage = "Press menu button                                                                  ";
     hidden var mModel;
 
     function initialize() {
